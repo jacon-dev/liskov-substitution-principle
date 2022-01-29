@@ -1,11 +1,8 @@
-﻿using System;
-using NUnit.Framework.Constraints;
-
-namespace LiskovSubstitutionPrinciple
+﻿namespace LiskovSubstitutionPrinciple
 {
     public class DuckControls
     {
-        public bool MathTheDuckSwim(Duck duck)
+        public bool MakeTheDuckSwim(Duck duck)
         {
             var isSwimming = duck.Swim();
             return isSwimming;

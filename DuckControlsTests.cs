@@ -11,7 +11,7 @@ namespace LiskovSubstitutionPrinciple
             var sut = new DuckControls();
             var duck = new RealDuck();
             
-            Assert.IsTrue(sut.MathTheDuckSwim(duck));
+            Assert.IsTrue(sut.MakeTheDuckSwim(duck));
         }        
         
         [Test]
@@ -29,7 +29,7 @@ namespace LiskovSubstitutionPrinciple
             var sut = new DuckControls();
             var duck = new ToyDuck();
             
-            Assert.IsTrue(sut.MathTheDuckSwim(duck));
+            Assert.IsTrue(sut.MakeTheDuckSwim(duck));
         }
 
         [Test]
